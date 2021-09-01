@@ -4,9 +4,33 @@
 
 
 header {
-    
+    display: flex;
     height: 100px;
     width: 100%;
+    
+}
+
+.linha1-left {
+    flex: 1;
+    background-color: royalblue;
+}
+
+.linha1-rigth {
+    flex: 4;
+    background-color: red;
+}
+
+.menu-space ul {
+    justify-content: center;
+    align-items: center;
+   
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.menu-space li {
+    margin: 0 10px;
 }
 
 img {
