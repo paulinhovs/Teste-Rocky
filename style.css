@@ -210,6 +210,79 @@ img {
     font-size: 15px;
 }
 
+.produto4-space {
+    margin-top: 30px;
+    margin-left: 80px;
+    height: 300px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+}
+
+#produto4-img {
+    margin-left: -15px;
+    height: 170px;
+    width: 180px;
+}
+
+#produto4-text1 {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+#produto4-text2 {
+    margin-top: 2px;
+    margin-left: 30px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 15px;
+}
+
+#produto4-text3 {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 15px;
+}
+
+.produto5-space {
+    margin-top: 30px;
+    margin-left: 80px;
+    height: 300px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+}
+
+#produto5-img {
+    margin-left: -15px;
+    height: 170px;
+    width: 180px;
+}
+
+#produto5-text1 {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+#produto5-text2 {
+    margin-top: 2px;
+    margin-left: 30px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 15px;
+}
+
+#produto5-text3 {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 15px;
+}
+
+
 #text-sonho {
     margin-top: 15px;
     margin-bottom: 20px;
@@ -218,6 +291,7 @@ img {
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
 }
+
 
 @media (min-width:375px) and (max-width:400px) {
     
@@ -230,7 +304,6 @@ img {
         min-height: 180px;
         display: flex;
         flex-direction: column;
-        
     }
 
     .linha1-left {
@@ -248,7 +321,7 @@ img {
         margin: 0;
     }
 
-    
+   
     #img-icon1 {
         margin-left: -15px;
     }
@@ -272,20 +345,32 @@ img {
         background-color: white;
     }
 
-    .produto1-space, .produto2-space, .produto3-space {
+    .produto1-space, .produto2-space, .produto3-space, .produto4-space {
         margin-top: 30px;
         margin-left: 80px;
         height: 350px;
         width: 220px;
-        borer: 1px solid rgb(51, 47, 47);
         display: flex;
         flex-direction: column;
     }
-    
+
     #produto1-img, #produto2-img, #produto3-img {
         margin-left: -15px;
         height: 250px;
         width: 250px;
+    }
+
+    #produto4-img {
+        margin-left: -25px;
+        height: 250px;
+        width: 250px;
+    }
+
+    #produto4-text1 {
+        margin-top: 10px;
+        margin-left: 40px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 20px;
     }
     
     #produto1-text1, #produto2-text1, #produto3-text1 {
@@ -301,10 +386,24 @@ img {
         font-family: 'Kaisei HarunoUmi', serif;
         font-size: 15px;
     }
+
+    #produto4-text2 {
+        margin-top: 2px;
+        font-family: 'Kaisei HarunoUmi', serif;
+        font-size: 15px;
+        margin-left: 50px;
+    }
     
     #produto1-text3, #produto2-text3, #produto3-text3 {
         margin-top: 5px;
         margin-left: 60px;
+        font-family: 'Kaisei HarunoUmi', serif;
+        font-size: 15px;
+    }
+
+    #produto4-text3 {
+        margin-top: 5px;
+        margin-left: 40px;
         font-family: 'Kaisei HarunoUmi', serif;
         font-size: 15px;
     }
