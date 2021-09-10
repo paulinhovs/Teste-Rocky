@@ -32,8 +32,6 @@
     box-shadow: 0 0 0.1em black;
 }
 
-
-
 #button1 {
     height: 36px; width: 97px; border: 1px solid #CCCCCC; box-sizing: border-box; border-radius: 3px; padding: 0px;
 }
@@ -297,6 +295,7 @@ img {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .motor1-space, .motor2-space, 
@@ -339,6 +338,57 @@ img {
     font-family: 'Kaisei HarunoUmi', serif;
     font-size: 15px;
 }
+
+.linha5 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.jaqueta1-space, .capacete1-space, .jaqueta2-space {
+    margin-top: 30px;
+    margin-left: 80px;
+    height: 300px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+}
+
+#jaqueta1-img, #jaqueta2-img {
+    margin-left: -15px;
+    height: 200px;
+    width: 180px;
+}
+
+#capacete1-img {
+    margin-left: -15px;
+    height: 160px;
+    width: 180px;
+}
+
+#jaqueta1-text1, #capacete1-text1, #jaqueta2-text1 {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+#jaqueta1-text2, #capacete1-text2, #jaqueta2-text2 {
+    margin-top: 2px;
+    margin-left: 30px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 15px;
+}
+
+#jaqueta1-text3, #capacete1-text3, #jaqueta2-text3 {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 15px;
+}
+
+
 
 
 @media (min-width:375px) and (max-width:400px) {
@@ -456,9 +506,7 @@ img {
         font-size: 15px;
     }
 
-    #produto5-text3 {
-        margin-bottom: ;
-    }
+   
 
     #inspir {
         margin-top: 10px;
@@ -496,7 +544,7 @@ img {
         margin-left: 30px;
     }
 
-    .linha3, .linha4 {
+    .linha3, .linha4, .linha5 {
         display: flex;
         flex-direction: column;
         min-height: 500px;
