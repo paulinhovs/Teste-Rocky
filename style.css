@@ -280,6 +280,7 @@ img {
     margin-left: 20px;
     font-family: 'Kaisei HarunoUmi', serif;
     font-size: 15px;
+    
 }
 
 
@@ -298,7 +299,8 @@ img {
     margin-top: 20px;
 }
 
-.motor1-space, .motor2-space, .motor3-space {
+.motor1-space, .motor2-space, 
+.motor3-space, .motor4-space, .motor5-space {
     margin-top: 30px;
     margin-left: 80px;
     height: 300px;
@@ -307,27 +309,31 @@ img {
     flex-direction: column;
 }
 
-#motor1-img, #motor2-img, #motor3-img {
+#motor1-img, #motor2-img,
+ #motor3-img, #motor4-img, #motor5-img {
     margin-left: -15px;
     height: 200px;
     width: 180px;
 }
 
-#motor1-text1, #motor2-text1, #motor3-text1 {
+#motor1-text1, #motor2-text1, 
+#motor3-text1, #motor4-text1, #motor5-text1 {
     margin-top: 10px;
     margin-left: 30px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
 }
 
-#motor1-text2, #motor2-text2, #motor3-text2 {
+#motor1-text2, #motor2-text2,
+ #motor3-text2, #motor4-text2, #motor5-text2 {
     margin-top: 2px;
     margin-left: 30px;
     font-family: 'Kaisei HarunoUmi', serif;
     font-size: 15px;
 }
 
-#motor1-text3, #motor2-text3, #motor3-text3 {
+#motor1-text3, #motor2-text3,
+ #motor3-text3, #motor4-text3, #motor5-text3 {
     margin-top: 5px;
     margin-left: 20px;
     font-family: 'Kaisei HarunoUmi', serif;
@@ -448,6 +454,10 @@ img {
         margin-left: 40px;
         font-family: 'Kaisei HarunoUmi', serif;
         font-size: 15px;
+    }
+
+    #produto5-text3 {
+        margin-bottom: ;
     }
 
     #inspir {
