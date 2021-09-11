@@ -387,27 +387,54 @@ img {
     width: 180px;
 }
 
-#capacete1-img, #capacete2-img {
+#capacete1-img{
     margin-left: -15px;
     height: 160px;
     width: 180px;
 }
 
-#jaqueta1-text1, #capacete1-text1, #capacete2-text1, #jaqueta2-text1, #jaqueta3-text1 {
+#capacete2-img {
+    margin-left: -15px;
+    height: 170px;
+    width: 180px;
+}
+
+#capacete1-text1, #capacete2-text1 {
     margin-top: 10px;
     margin-left: 15px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
 }
 
-#jaqueta1-text2, #capacete1-text2, #capacete2-text2, #jaqueta2-text2, #jaqueta3-text2 {
+#jaqueta1-text1, #jaqueta2-text1, #jaqueta3-text1 {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+#capacete1-text2, #capacete2-text2 {
     margin-top: 2px;
     margin-left: 30px;
     font-family: 'Kaisei HarunoUmi', serif;
     font-size: 15px;
 }
 
-#jaqueta1-text3, #capacete1-text3, #jaqueta2-text3, #jaqueta3-text3, #capacete2-text3 {
+#jaqueta1-text2, #jaqueta2-text2, #jaqueta3-text2 {
+    margin-top: 2px;
+    margin-left: 30px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 15px;
+}
+
+#capacete1-text3, #capacete2-text3 {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 15px;
+}
+
+#jaqueta1-text3, #jaqueta2-text3, #jaqueta3-text3 {
     margin-top: 5px;
     margin-left: 20px;
     font-family: 'Kaisei HarunoUmi', serif;
