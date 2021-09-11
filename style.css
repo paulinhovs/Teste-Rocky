@@ -157,7 +157,7 @@ img {
     font-size: 15px;
 }
 
-.linha3 {
+.linha3, .teste1, .teste2, .teste3 {
     display: flex;
     flex-direction: row;
 }
@@ -414,6 +414,25 @@ img {
     font-size: 15px;
 }
 
+@media (min-width:1050px) and (max-width:1300px) {
+
+    header {
+        width: 100%;
+    }
+
+    .linha1-left {
+        margin-left: -75px;
+    }
+
+    .linha1-rigth {
+        margin-left: -35px;
+    }
+
+    #img-icon6 {
+        margin-right: 10px;
+    }
+
+}
 
 
 
@@ -458,9 +477,43 @@ img {
         margin-left: 80px;
     }
 
+    #img-icon4 {
+        margin-left: -15px;
+    }
+
+    #img-icon5 {
+       margin-left: 80px;
+    }
+
+    #img-icon6 {
+        margin-left: 70px;
+    }
+
+    .teste1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+    .linha2-mobile {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .teste2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .teste3 {
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+    }
+
     .menu-space ul {
         margin: 0;
-        width: 89.2%;
+        width: 89.5%;
         margin-right: 0px;
         min-height: 80px;
         background-color: rgb(163, 163, 162);
@@ -535,7 +588,7 @@ img {
    
 
     #inspir {
-        margin-top: 10px;
+        margin-top: 50px;
         margin-left: 130px;
         margin-bottom: 10px;
     }
