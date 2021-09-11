@@ -365,7 +365,7 @@ img {
     font-size: 15px;
 }
 
-.linha5 {
+.linha5, .linha6 {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
@@ -419,7 +419,8 @@ img {
     font-size: 15px;
 }
 
-.jaqueta1-space, .jaqueta2-space, .jaqueta3-space {
+.jaqueta1-space, .jaqueta2-space, .jaqueta3-space,
+.jaqueta4-space, .jaqueta5-space {
     margin-top: 30px;
     margin-left: 80px;
     height: 300px;
@@ -428,31 +429,35 @@ img {
     flex-direction: column;
 }
 
-#jaqueta1-img, #jaqueta2-img, #jaqueta3-img {
+#jaqueta1-img, #jaqueta2-img, #jaqueta3-img,
+#jaqueta4-img, #jaqueta5-img {
     margin-left: -15px;
     height: 200px;
     width: 180px;
 }
 
-#jaqueta1-text3, #jaqueta2-text3, #jaqueta3-text3 {
-    margin-top: 5px;
-    margin-left: 20px;
-    font-family: 'Kaisei HarunoUmi', serif;
-    font-size: 15px;
+#jaqueta1-text1, #jaqueta2-text1, #jaqueta3-text1,
+#jaqueta4-text1, #jaqueta5-text1 {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
 }
 
-#jaqueta1-text2, #jaqueta2-text2, #jaqueta3-text2 {
+#jaqueta1-text2, #jaqueta2-text2, #jaqueta3-text2,
+#jaqueta4-text2, #jaqueta5-text2 {
     margin-top: 2px;
     margin-left: 30px;
     font-family: 'Kaisei HarunoUmi', serif;
     font-size: 15px;
 }
 
-#jaqueta1-text1, #jaqueta2-text1, #jaqueta3-text1 {
-    margin-top: 10px;
-    margin-left: 15px;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px;
+#jaqueta1-text3, #jaqueta2-text3, #jaqueta3-text3,
+#jaqueta4-text3, #jaqueta5-text3 {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 15px;
 }
 
 @media (min-width:1050px) and (max-width:1300px) {
@@ -664,7 +669,7 @@ img {
         margin-left: 30px;
     }
 
-    .linha3, .linha4, .linha5 {
+    .linha3, .linha4, .linha5, .linha6 {
         display: flex;
         flex-direction: column;
         min-height: 500px;
