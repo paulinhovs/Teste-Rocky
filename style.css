@@ -557,8 +557,18 @@ img {
     flex-direction: column;
 }
 
-.escape6-space, .escape7-space {
+.escape6-space {
     margin-top: 30px;
+    margin-left: 80px;
+    height: 300px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.escape7-space {
+    margin-top: 40px;
     margin-left: 80px;
     height: 300px;
     width: 170px;
@@ -631,6 +641,17 @@ img {
     flex-direction: column;
 }
 
+.painel6-space,
+.painel7-space {
+    margin-top: 30px;
+    margin-left: 80px;
+    height: 300px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
 #painel1-img, 
 #painel3-img {
     margin-left: -15px;
@@ -640,17 +661,26 @@ img {
 
 #painel2-img,
 #painel4-img,
-#painel5-img {
+#painel5-img,
+#painel7-img {
     margin-left: -15px;
     height: 180px;
     width: 180px;
+}
+
+#painel6-img {
+    margin-left: -15px;
+    height: 180px;
+    width: 200px;
 }
 
 #painel1-text1,
 #painel2-text1,
 #painel3-text1,
 #painel4-text1,
-#painel5-text1 {
+#painel5-text1,
+#painel6-text1,
+#painel7-text1 {
     margin-top: 10px;
     margin-left: 15px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -661,7 +691,9 @@ img {
 #painel2-text2,
 #painel3-text2,
 #painel4-text2,
-#painel5-text2 {
+#painel5-text2,
+#painel6-text2,
+#painel7-text2 {
     margin-top: 2px;
     margin-left: 30px;
     font-family: 'Kaisei HarunoUmi', serif;
@@ -672,7 +704,9 @@ img {
 #painel2-text3,
 #painel3-text3,
 #painel4-text3,
-#painel5-text3 {
+#painel5-text3,
+#painel6-text3,
+#painel7-text3 {
     margin-top: 5px;
     margin-left: 20px;
     font-family: 'Kaisei HarunoUmi', serif;
@@ -922,7 +956,8 @@ footer {
     .motor6-space, .motor7-space,
     .capacete6-space, .capacete7-space,
     .jaqueta6-space, .jaqueta7-space,
-    .escape6-space, .escape7-space {
+    .escape6-space, .escape7-space,
+    .painel6-space, .painel7-space {
         display: inline-block;
     }
 
@@ -952,7 +987,8 @@ footer {
     .motor6-space, .motor7-space,
     .capacete6-space, .capacete7-space,
     .jaqueta6-space, .jaqueta7-space,
-    .escape6-space, .escape7-space {
+    .escape6-space, .escape7-space,
+    .painel6-space, .painel7-space {
         display: inline-block;
     }
 
@@ -975,7 +1011,8 @@ footer {
     .motor6-space,
     .capacete7-space,
     .jaqueta7-space,
-    .escape7-space {
+    .escape7-space,
+    .painel6-space {
         display: inline-block;
     }
 
