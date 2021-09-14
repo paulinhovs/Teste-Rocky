@@ -303,10 +303,52 @@ img {
     margin-top: 5px;
     margin-left: 20px;
     font-family: 'Kaisei HarunoUmi', serif;
-    font-size: 15px;
-    
+    font-size: 15px; 
 }
 
+.produto6-space,
+.produto7-space,
+.motor6-space,
+.motor7-space {
+    margin-top: 30px;
+    margin-left: 80px;
+    height: 300px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+#produto6-img,
+#produto7-img {
+    margin-left: -15px;
+    height: 170px;
+    width: 180px;
+}
+
+#produto6-text1,
+#produto7-text1 {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+#produto6-text2,
+#produto7-text2 {
+    margin-top: 2px;
+    margin-left: 30px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 15px;
+}
+
+#produto6-text3,
+#produto7-text3 {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 15px; 
+}
 
 #text-sonho {
     margin-top: 15px;
@@ -334,15 +376,27 @@ img {
     flex-direction: column;
 }
 
+.motor6-space, .motor7-space {
+    margin-top: 30px;
+    margin-left: 80px;
+    height: 300px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
 #motor1-img, #motor2-img,
- #motor3-img, #motor4-img, #motor5-img {
+#motor3-img, #motor4-img, #motor5-img,
+#motor6-img, #motor7-img {
     margin-left: -15px;
     height: 200px;
     width: 180px;
 }
 
 #motor1-text1, #motor2-text1, 
-#motor3-text1, #motor4-text1, #motor5-text1 {
+#motor3-text1, #motor4-text1, #motor5-text1,
+#motor6-text1, #motor7-text1 {
     margin-top: 10px;
     margin-left: 30px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -350,7 +404,8 @@ img {
 }
 
 #motor1-text2, #motor2-text2,
- #motor3-text2, #motor4-text2, #motor5-text2 {
+#motor3-text2, #motor4-text2, #motor5-text2,
+#motor6-text2, #motor7-text2 {
     margin-top: 2px;
     margin-left: 30px;
     font-family: 'Kaisei HarunoUmi', serif;
@@ -358,14 +413,15 @@ img {
 }
 
 #motor1-text3, #motor2-text3,
- #motor3-text3, #motor4-text3, #motor5-text3 {
+#motor3-text3, #motor4-text3, #motor5-text3,
+#motor6-text3, #motor7-text3 {
     margin-top: 5px;
     margin-left: 20px;
     font-family: 'Kaisei HarunoUmi', serif;
     font-size: 15px;
 }
 
-.linha5, .linha6 {
+.linha5, .linha6, .linha7, .linha8 {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
@@ -382,8 +438,19 @@ img {
     flex-direction: column;
 }
 
+.capacete6-space,
+.capacete7-space {
+    margin-top: 30px;
+    margin-left: 80px;
+    height: 300px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
 #capacete1-img, #capacete3-img, #capacete4-img,
-#capacete5-img {
+#capacete5-img, #capacete6-img, #capacete7-img {
     margin-left: -15px;
     height: 160px;
     width: 180px;
@@ -396,7 +463,8 @@ img {
 }
 
 #capacete1-text1, #capacete2-text1, #capacete3-text1,
-#capacete4-text1, #capacete5-text1 {
+#capacete4-text1, #capacete5-text1, #capacete6-text1,
+#capacete7-text1 {
     margin-top: 10px;
     margin-left: 15px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -404,7 +472,8 @@ img {
 }
 
 #capacete1-text2, #capacete2-text2, #capacete3-text2,
-#capacete4-text2, #capacete5-text2 {
+#capacete4-text2, #capacete5-text2, #capacete6-text2,
+#capacete7-text2 {
     margin-top: 2px;
     margin-left: 30px;
     font-family: 'Kaisei HarunoUmi', serif;
@@ -412,7 +481,8 @@ img {
 }
 
 #capacete1-text3, #capacete2-text3, #capacete3-text3,
-#capacete4-text3, #capacete5-text3 {
+#capacete4-text3, #capacete5-text3, #capacete6-text3,
+#capacete7-text3 {
     margin-top: 5px;
     margin-left: 20px;
     font-family: 'Kaisei HarunoUmi', serif;
@@ -429,15 +499,27 @@ img {
     flex-direction: column;
 }
 
+.jaqueta6-space, .jaqueta7-space {
+    margin-top: 30px;
+    margin-left: 80px;
+    height: 300px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
 #jaqueta1-img, #jaqueta2-img, #jaqueta3-img,
-#jaqueta4-img, #jaqueta5-img {
+#jaqueta4-img, #jaqueta5-img, #jaqueta6-img,
+#jaqueta7-img {
     margin-left: -15px;
     height: 200px;
     width: 180px;
 }
 
 #jaqueta1-text1, #jaqueta2-text1, #jaqueta3-text1,
-#jaqueta4-text1, #jaqueta5-text1 {
+#jaqueta4-text1, #jaqueta5-text1, #jaqueta6-text1,
+#jaqueta7-text1 {
     margin-top: 10px;
     margin-left: 15px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -445,7 +527,8 @@ img {
 }
 
 #jaqueta1-text2, #jaqueta2-text2, #jaqueta3-text2,
-#jaqueta4-text2, #jaqueta5-text2 {
+#jaqueta4-text2, #jaqueta5-text2, #jaqueta6-text2,
+#jaqueta7-text2 {
     margin-top: 2px;
     margin-left: 30px;
     font-family: 'Kaisei HarunoUmi', serif;
@@ -453,12 +536,157 @@ img {
 }
 
 #jaqueta1-text3, #jaqueta2-text3, #jaqueta3-text3,
-#jaqueta4-text3, #jaqueta5-text3 {
+#jaqueta4-text3, #jaqueta5-text3, #jaqueta6-text3,
+#jaqueta7-text3 {
     margin-top: 5px;
     margin-left: 20px;
     font-family: 'Kaisei HarunoUmi', serif;
     font-size: 15px;
 }
+
+.escape1-space,
+.escape2-space,
+.escape3-space,
+.escape4-space,
+.escape5-space {
+    margin-top: 30px;
+    margin-left: 80px;
+    height: 300px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#escape1-img,
+#escape2-img,
+#escape3-img,
+#escape4-img,
+#escape5-img {
+    margin-left: -15px;
+    height: 160px;
+    width: 180px;
+}
+
+#escape1-text1,
+#escape2-text1,
+#escape3-text1,
+#escape4-text1,
+#escape5-text1 {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+#escape1-text2,
+#escape2-text2,
+#escape3-text2,
+#escape4-text2,
+#escape5-text2 {
+    margin-top: 2px;
+    margin-left: 30px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 15px;
+}
+
+#escape1-text3,
+#escape2-text3,
+#escape3-text3,
+#escape4-text3,
+#escape5-text3 {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 15px;
+}
+
+.painel1-space,
+.painel2-space,
+.painel3-space,
+.painel4-space,
+.painel5-space {
+    margin-top: 30px;
+    margin-left: 80px;
+    height: 300px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+}
+
+#painel1-img, 
+#painel3-img {
+    margin-left: -15px;
+    height: 160px;
+    width: 180px;
+}
+
+#painel2-img,
+#painel4-img,
+#painel5-img {
+    margin-left: -15px;
+    height: 180px;
+    width: 180px;
+}
+
+#painel1-text1,
+#painel2-text1,
+#painel3-text1,
+#painel4-text1,
+#painel5-text1 {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+#painel1-text2,
+#painel2-text2,
+#painel3-text2,
+#painel4-text2,
+#painel5-text2 {
+    margin-top: 2px;
+    margin-left: 30px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 15px;
+}
+
+#painel1-text3,
+#painel2-text3,
+#painel3-text3,
+#painel4-text3,
+#painel5-text3 {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 15px;
+}
+
+footer {
+    height: 90px;
+    width: 100%;
+    box-shadow: 0 0 0.4em black;
+    display: flex;
+    flex-direction: row;
+}
+
+.linha1-footer {
+    margin-left: 20px;
+    color: black;
+    margin-top: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#icon1-footer, 
+#icon2-footer,
+#icon3-footer {
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+}
+
 
 @media (min-width:1050px) and (max-width:1300px) {
 
@@ -479,7 +707,6 @@ img {
     }
 
 }
-
 
 
 @media (min-width:375px) and (max-width:400px) {
@@ -631,8 +858,6 @@ img {
         font-size: 15px;
     }
 
-   
-
     #inspir {
         margin-top: 50px;
         margin-left: 130px;
@@ -669,13 +894,69 @@ img {
         margin-left: 30px;
     }
 
-    .linha3, .linha4, .linha5, .linha6 {
+    .linha3, .linha4, .linha5, .linha6,
+    .linha7, .linha8 {
         display: flex;
         flex-direction: column;
         min-height: 500px;
     }
 
+    .produto6-space, .produto7-space,
+    .motor6-space, .motor7-space,
+    .capacete6-space, .capacete7-space,
+    .jaqueta6-space, .jaqueta7-space {
+        display: inline-block;
+    }
 
-   
+    footer {
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width:1800px) and (max-width:2100px) {
     
+    .w3-container {
+        margin-left: 280px;
+    }
+
+    .w3-content {
+        margin-left: 400px;
+    }
+
+    .w3-center {
+        margin-left: 800px;
+    }
+
+    .produto6-space, .produto7-space,
+    .motor6-space, .motor7-space,
+    .capacete6-space, .capacete7-space,
+    .jaqueta6-space, .jaqueta7-space {
+        display: inline-block;
+    }
+
+}
+
+@media (min-width:1550px) and (max-width:1750px) {
+    .w3-container {
+        margin-left: 120px;
+    }
+
+    .w3-content {
+        margin-left: 300px;
+    }
+
+    .w3-center {
+        margin-left: 700px;
+    }
+
+    .produto6-space,
+    .motor6-space,
+    .capacete7-space,
+    .jaqueta7-space {
+        display: inline-block;
+    }
+
 }
